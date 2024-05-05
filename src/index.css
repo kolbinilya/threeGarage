@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*body{*/
+/*    background: url("./images/garage-bg.jpg") no-repeat center;*/
+/*    background-size: cover;*/
+/*    width: 100%;*/
+/*}*/
+
+.nav-btn{
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #333;
+}
+.nav-btn:hover{
+    box-shadow: 2px 2px 4px #333;
+}
+.active{
+    box-shadow: 2px 2px 4px #333;
+}
